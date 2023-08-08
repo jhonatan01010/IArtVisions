@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filterable Image Gallery Bootstrap | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- Images Filter Buttons Section -->
+      <div class="row mt-5" id="filter-buttons">
+        <div class="col-12">
+          <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+          <button class="btn mb-2 mx-1" data-filter="Motos">Motos</button>
+          <button class="btn mb-2 mx-1" data-filter="Personajes">Personajes</button>
+          <button class="btn mb-2 mx-1" data-filter="Mascota">Mascota</button>
+          <button class="btn mb-2 mx-1" data-filter="Cristianas">Cristianas</button>
+        </div>
+      </div>
+      
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_A_lone_rider_atop_a_gray_motorcycle_the_eng_0.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_A_lone_rider_atop_a_gray_motorcycle_the_eng_1.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_A_lone_rider_atop_a_gray_motorcycle_the_eng_2.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_black_sports_motorcycle_0.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+            <img src="img/3D_Animation_Style_Every_motorcycle_should_be_an_example_of_ex_3.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_Adventure_motorcycle_with_stylish_panniers_0.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_Adventure_motorcycle_with_stylish_panniers_1.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+          <img src="img/3D_Animation_Style_Every_motorcycle_should_be_an_example_of_ex_1.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+            <img src="img/3D_Animation_Style_black_sports_motorcycle_1.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+            <img src="img/3D_Animation_Style_It_generates_a_stunning_image_of_a_black_sp_0 (1).jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+            <img src="img/3D_Animation_Style_It_generates_a_stunning_image_of_a_black_sp_0.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Motos">
+            <img src="img/3D_Animation_Style_It_generates_a_stunning_image_of_a_black_sp_1 (1).jpg" alt="img" class="protected-image">
+        </div>
+        
+        <div class="card p-0" data-name="Personajes">
+          <img src="img/3D_Animation_Style_It_represents_Goku_in_the_middle_of_an_inte_0.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Personajes">
+          <img src="img/3D_Animation_Style_It_represents_Goku_in_the_middle_of_an_inte_1.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Personajes">
+          <img src="img/3D_Animation_Style_It_represents_Goku_in_the_middle_of_an_inte_2.jpg" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Personajes">
+          <img src="img/3D_Animation_Style_It_represents_Goku_in_the_middle_of_an_inte_3.jpg" alt="img" class="protected-image">
+        </div>
+
+        <div class="card p-0" data-name="Personajes">
+            <img src="img/3D_Animation_Style_Goku_that_is_fighting_with_Vegeta_but_that_0-(1).png" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Mascota">
+            <img src="img/Cute_Animal_Characters_Visualize_a_small_breed_puppy_sleeping_0.png" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Mascota">
+            <img src="img/Cute_Animal_Characters_Visualize_a_small_breed_puppy_sleeping_1.png" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Mascota">
+            <img src="img/Cute_Animal_Characters_Visualize_a_small_breed_puppy_sleeping_2.png" alt="img" class="protected-image">
+        </div>
+        <div class="card p-0" data-name="Cristianas">
+          <img src="img/DreamShaper_v7_Generate_a_minimalist_vector_logo_illustration_0.jpg" alt="img" class="protected-image">
+      </div>
+      <div class="card p-0" data-name="Cristianas">
+        <img src="img/DreamShaper_v7_Generate_a_minimalist_vector_logo_illustration_1.jpg" alt="img" class="protected-image">
+    </div>
+    <div class="card p-0" data-name="Cristianas">
+      <img src="img/DreamShaper_v7_Generate_a_minimalist_vector_logo_illustration_3.png" alt="img" class="protected-image">
+  </div>
+  <div class="card p-0" data-name="Cristianas">
+    <img src="img/Cute_Animal_Characters_minimalist_vector_art_logo_illustration_1.jpg" alt="img" class="protected-image">
+</div>
+      </div>
+    </div>
+
+    <div class="preview-box">
+      <div class="details">
+        <span class="title"> <p class="current-img"></p>  <p class="total-img"></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box">
+        <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+        <div class="slide next"><i class="fas fa-angle-right"></i></div>
+        <img src="img/3D_Animation_Style_A_lone_rider_atop_a_gray_motorcycle_the_eng_0.jpg" alt="img" class="protected-image">
+      </div>
+    </div>
+    <div class="shadow"></div>
+
+  </body>
+</html>
